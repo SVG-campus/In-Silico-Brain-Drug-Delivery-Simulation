@@ -1,0 +1,84 @@
+{
+  "diffusion": {
+    "t_end_h": 48.0,
+    "coverage_time_h": 0.0,
+    "coverage_auc_hxfraction": 0.0,
+    "max_coverage_fraction": 0.0,
+    "max_overdose_fraction": 0.01220703125,
+    "first_coverage_h": null,
+    "last_coverage_h": null
+  },
+  "pkpd": {
+    "t_end_h": 24.0,
+    "time_in_therapeutic_h": 9.795568263045032,
+    "frac_time_in_therapeutic": 0.40814867762687634,
+    "time_above_toxic_h": 0.0,
+    "mean_Cbrain": 0.039038523572837214,
+    "max_Cbrain": 0.08646865757254332
+  },
+  "config": {
+    "diffusion": {
+      "nx": 64,
+      "ny": 64,
+      "Lx": 0.032,
+      "Ly": 0.032,
+      "dt": 10.0,
+      "t_final": 172800.0,
+      "save_dt": 300.0,
+      "bctype": "neumann",
+      "D_white": 5.657188703613239e-10,
+      "D_grey": 1.1314377407226478e-09,
+      "k_decay": 0.00014403406949293015,
+      "aniso_ratio_white": 0.6,
+      "aniso_ratio_grey": 1.0,
+      "src_x_frac": 0.25,
+      "src_y_frac": 0.5,
+      "tgt_x_frac": 0.75,
+      "tgt_y_frac": 0.5,
+      "source_radius_frac": 0.02,
+      "target_radius_frac": 0.1,
+      "point_injection": false,
+      "dose_amount": 1.0,
+      "infusion_rate": 0.002,
+      "infusion_t_on": 0.0,
+      "infusion_t_off": 43200.0,
+      "ramp_first_hours": 2.0,
+      "therapeutic_thresh": 0.01,
+      "toxicity_thresh": 0.5
+    },
+    "pkpd": {
+      "three_compartment": true,
+      "k_blood_to_brain": 0.0008,
+      "k_brain_to_blood": 0.0005,
+      "k_elim_blood": 0.0003,
+      "k_deg_brain": 0.0002,
+      "k_blood_to_clear": 0.0,
+      "V_blood": 5.0,
+      "V_brain": 1.2,
+      "V_clear": 2.0,
+      "boluses": [
+        [
+          0.0,
+          0.6
+        ],
+        [
+          21600.0,
+          0.6
+        ]
+      ],
+      "infusions": [
+        [
+          7200.0,
+          43200.0,
+          0.0002
+        ]
+      ],
+      "t_final": 86400.0,
+      "EC50": 0.2,
+      "Emax": 1.0,
+      "hill_n": 2.0,
+      "therapeutic_thresh": 0.05,
+      "toxicity_thresh": 1.0
+    }
+  }
+}
