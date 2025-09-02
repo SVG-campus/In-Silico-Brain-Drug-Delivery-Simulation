@@ -1,0 +1,48 @@
+{
+  "mms": {
+    "space_h": [
+      0.03125,
+      0.020833333333333332,
+      0.015625
+    ],
+    "space_errs": [
+      3.827539094133316e-08,
+      1.6321744455704358e-08,
+      8.636116695754776e-09
+    ],
+    "space_order_est": 2.212669019645514,
+    "time_dts": [
+      0.0001,
+      5e-05,
+      2.5e-05
+    ],
+    "time_errs": [
+      1.2029092572555958e-07,
+      5.7948606967332165e-08,
+      2.6777861450485856e-08
+    ],
+    "time_order_est": 1.113733232658063
+  },
+  "gaussian_check": {
+    "min_C": 0.0,
+    "final_mass": 0.015700111225549995,
+    "max_mass": 0.015707963267948963,
+    "pos_ok": true,
+    "mass_bound_ok": true
+  },
+  "pk_matrix_exponential": {
+    "max_abs_err": 1.5770583172702857e-09,
+    "mean_abs_err": 2.512555518293651e-11
+  },
+  "criteria": {
+    "mms_space_order_min": 1.8,
+    "mms_time_order_min": 0.9,
+    "pk_max_abs_err_max": 1e-06,
+    "gaussian_min_C": -1e-12
+  },
+  "status": {
+    "mms_ok": true,
+    "gaussian_ok": true,
+    "pk_ok": true
+  }
+}
