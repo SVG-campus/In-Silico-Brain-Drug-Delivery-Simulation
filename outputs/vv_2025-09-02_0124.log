@@ -1,0 +1,7 @@
+nohup: ignoring input
+V&V done → outputs/vv_2025-09-02_0124
+{
+  "mms_ok": false,
+  "gaussian_ok": true,
+  "pk_ok": true
+}
