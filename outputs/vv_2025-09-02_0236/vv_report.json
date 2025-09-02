@@ -1,0 +1,45 @@
+{
+  "mms": {
+    "space_h": [
+      0.03125,
+      0.015625,
+      0.0078125
+    ],
+    "space_errs": [
+      5.205903268721509e-05,
+      0.00038705634244316306,
+      0.00047092932111738353
+    ],
+    "space_order_est": -0.2829669611212876,
+    "time_dt": [
+      0.004119873046875,
+      0.0020599365234375,
+      0.00102996826171875
+    ],
+    "time_errs": [
+      0.000570132071903409,
+      0.0002714389762694986,
+      0.0001217056287795915
+    ],
+    "time_order_est": 1.1572320010690866
+  },
+  "gaussian_check": {
+    "mass_rel_violation_max": 0.0,
+    "M0": 0.015707963267948963
+  },
+  "pk_matrix_exponential": {
+    "max_abs_err": 5.4308946229042476e-11,
+    "mean_abs_err": 2.3636313534127457e-12
+  },
+  "criteria": {
+    "mms_space_order_min": 1.8,
+    "mms_time_order_min": 0.9,
+    "gauss_rel_violation_max": 1e-08,
+    "pk_max_abs_err_max": 1e-09
+  },
+  "status": {
+    "mms_ok": false,
+    "gaussian_ok": true,
+    "pk_ok": true
+  }
+}
