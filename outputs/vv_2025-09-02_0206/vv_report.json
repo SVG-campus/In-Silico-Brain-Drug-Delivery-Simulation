@@ -1,0 +1,34 @@
+{
+  "mms": {
+    "space_order_est": -0.004302060831076015,
+    "time_order_est": 1.301162220175309,
+    "space_errs": [
+      6.19997321241704e-06,
+      6.221982918290216e-06,
+      6.229688171852528e-06
+    ],
+    "time_errs": [
+      1.1480032695956604e-07,
+      5.2458147991545195e-08,
+      2.128747233077835e-08
+    ]
+  },
+  "gaussian_check": {
+    "mass_rel_err_max": 2.9788017170412005e-09
+  },
+  "pk_matrix_exponential": {
+    "max_abs_err": 2.0407439627057045e-11,
+    "mean_abs_err": 5.5877195574000285e-14
+  },
+  "criteria": {
+    "mms_space_order_min": 1.8,
+    "mms_time_order_min": 0.9,
+    "pk_max_abs_err_max": 1e-09,
+    "mass_rel_err_max": 0.05
+  },
+  "status": {
+    "mms_ok": false,
+    "gaussian_ok": true,
+    "pk_ok": true
+  }
+}
